@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1E9B0"
+    tools:context=".MainActivity">
+
+    <AnalogClock
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+    <DigitalClock
+
+        android:layout_marginLeft="130dp"
+        android:textSize="40dp"
+        android:textColor="#F52453"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_centerHorizontal="true"
+        android:background="#48B8AD"
+        android:padding="10dp"
+        android:text="Enter 'Only Analog' Mode"
+        android:onClick="onButton1Press"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:padding="10dp"
+        android:background="#48B8AD"
+        android:layout_centerHorizontal="true"
+        android:text="Enter 'Only Digital' Mode"
+        android:onClick="onButton2Press"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#48B8AD"
+        android:layout_marginTop="530dp"
+        android:layout_centerHorizontal="true"
+        android:text="Stopwatch"
+        android:onClick="onButton3Press"/>
+
+
+</RelativeLayout>
